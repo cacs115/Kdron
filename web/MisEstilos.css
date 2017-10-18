@@ -1,0 +1,88 @@
+
+h1{
+    background-color: orange;   
+}
+nav{
+        clear: both;
+    text-align :center;
+}
+nav li{
+    display:inline-block;
+  padding: 10px;
+}
+
+body{
+    background-color: orange;
+    width:900px;
+    margin: auto;
+    border:solid black; 
+}
+
+img{
+    float: right;
+}
+#ladoDerecho{
+    background-color: fuchsia;
+    padding: 10px;
+}
+
+
+header{
+    text-align :center;
+    font-size: 125%;
+}
+
+footer{
+    clear: both;
+    text-align :center;
+}
+
+.palabras{
+    background-color: yellow;
+    color:red; 
+    font-family:fantasy ;
+}
+form{
+    width: 400px;
+    margin:auto;
+    background-color: orange; 
+    border: solid black; 
+}
+
+.tecTable {
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.tectTable, th, td {
+  text-align: left;
+  padding: 5px;
+    border: 1px solid gray;
+    
+}
+
+
+form div + div {
+    margin-top: 2em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+textarea {
+height: 60px;
+}
+
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    margin-left: 40px; /* mismo tamaño a todos los elementos label */
+}
+
